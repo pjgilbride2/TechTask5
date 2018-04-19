@@ -1,3 +1,6 @@
-function Person() {
-  return { greet: "Hello!" };
+function Person(name) {
+    return {
+        greetGeneral: "Hello!",
+        greetSpecific: "Hello " + name + "!"
+    };
 }

@@ -3,4 +3,8 @@ describe("Person", function () {
     var person = new Person();
     expect(person.greet).toBe("Hello!");
   });
+  it("has a greeting", function() {
+      var person = new Person();
+      expect(person.greet).toBe("Hello!");
+  });
 });
